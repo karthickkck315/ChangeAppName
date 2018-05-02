@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  ChangeAppName
+
+  Created by Karthick on 5/2/18.
+  Copyright © 2018 Karthick. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "App Name";

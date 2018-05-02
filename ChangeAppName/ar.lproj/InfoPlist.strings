@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  ChangeAppName
+
+  Created by Karthick on 5/2/18.
+  Copyright © 2018 Karthick. All rights reserved.
+*/
+//If you are change your mobile language your app name will be changed based your mobile languge
+"CFBundleDisplayName" = "اسم التطبيق";

@@ -12,6 +12,7 @@
 		77B724FB2099BFEE005E51E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B724F92099BFEE005E51E1 /* Main.storyboard */; };
 		77B724FD2099BFEE005E51E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B724FC2099BFEE005E51E1 /* Assets.xcassets */; };
 		77B725002099BFEE005E51E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B724FE2099BFEE005E51E1 /* LaunchScreen.storyboard */; };
+		77B7250B2099C053005E51E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77B7250D2099C053005E51E1 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,10 @@
 		77B724FC2099BFEE005E51E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77B724FF2099BFEE005E51E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77B725012099BFEE005E51E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B725092099C04F005E51E1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		77B7250A2099C04F005E51E1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		77B7250C2099C053005E51E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77B7250E2099C054005E51E1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 				77B724FC2099BFEE005E51E1 /* Assets.xcassets */,
 				77B724FE2099BFEE005E51E1 /* LaunchScreen.storyboard */,
 				77B725012099BFEE005E51E1 /* Info.plist */,
+				77B7250D2099C053005E51E1 /* InfoPlist.strings */,
 			);
 			path = ChangeAppName;
 			sourceTree = "<group>";
@@ -107,6 +113,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 77B724E92099BFED005E51E1;
 			productRefGroup = 77B724F32099BFED005E51E1 /* Products */;
@@ -124,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B725002099BFEE005E51E1 /* LaunchScreen.storyboard in Resources */,
+				77B7250B2099C053005E51E1 /* InfoPlist.strings in Resources */,
 				77B724FD2099BFEE005E51E1 /* Assets.xcassets in Resources */,
 				77B724FB2099BFEE005E51E1 /* Main.storyboard in Resources */,
 			);
@@ -148,6 +156,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				77B724FA2099BFEE005E51E1 /* Base */,
+				77B725092099C04F005E51E1 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -156,8 +165,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				77B724FF2099BFEE005E51E1 /* Base */,
+				77B7250A2099C04F005E51E1 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		77B7250D2099C053005E51E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77B7250C2099C053005E51E1 /* en */,
+				77B7250E2099C054005E51E1 /* ar */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -167,6 +186,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -224,6 +244,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
